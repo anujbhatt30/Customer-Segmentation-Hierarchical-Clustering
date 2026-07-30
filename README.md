@@ -66,6 +66,76 @@ The project also includes data preprocessing, feature scaling, dimensionality re
 10. Business Insights
 
 ---
+## Workflow
+
+                ┌────────────────────────┐
+                │   Load Dataset         │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Data Exploration (EDA) │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Data Preprocessing     │
+                │ • Handle Missing Data  │
+                │ • Select Features      │
+                │ • Feature Scaling      │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Feature Selection      │
+                │ (e.g., Income, Score)  │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Compute Distance Matrix│
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Apply Hierarchical     │
+                │ Clustering (Agglomer.) │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Generate Dendrogram    │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Select Optimal Number  │
+                │ of Clusters            │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Assign Cluster Labels  │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Visualize Clusters     │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Analyze Customer       │
+                │ Segments               │
+                └──────────┬─────────────┘
+                           │
+                           ▼
+                ┌────────────────────────┐
+                │ Business Insights &    │
+                │ Recommendations        │
+                └────────────────────────┘
+
+---
 
 ## Results
 
