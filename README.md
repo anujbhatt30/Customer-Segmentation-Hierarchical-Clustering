@@ -236,4 +236,9 @@ During this project, I learned:
 
 Aspiring Machine Learning Enthusiast
 
-Thank you
+⭐ If you found this project useful
+
+Please consider giving this repository a Star ⭐
+
+It helps support the project and motivates future improvements.
+
